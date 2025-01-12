@@ -18,10 +18,7 @@ class Solution(object):
             else:
                 return False
             
-        if stack!=[]:
-            return False
-        else:
-            return True
+        return not stack
         
 s = "[([]])"
 sol = Solution()
