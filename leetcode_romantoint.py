@@ -20,7 +20,7 @@ class Solution(object):
                 result -= symbols[a]
             else:
                 result += symbols[a]
-        return result 
+        return result + symbols[s[-1]]
     
 x = "LVIII"
 sol = Solution()
