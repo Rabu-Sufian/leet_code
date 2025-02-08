@@ -10,10 +10,10 @@ class Solution(object):
             if l1 == l2:
                 output.append(l1)
                 output.append(l2)
-            elif l1 < l2:
+            if l1 < l2:
                 output.append(l1)
                 output.append(l2)
-            elif l2 < l1:
+            if l2 < l1:
                 output.append(l2)
                 output.append(l1)   
         return output

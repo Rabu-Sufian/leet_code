@@ -5,7 +5,7 @@ class Solution(object):
     def removeDuplicates(self, nums):
         p1 = 0
         for i in range(1, len(nums)):
-            if nums[i] == nums[p1]:
+            if nums[i] != nums[p1]:
                 p1 += 1
                 nums[p1] = nums[i]
         return p1 +1, nums

@@ -11,7 +11,7 @@ class Solution(object):
             if nums[i] != val:
                 nums[left] = nums[i]
                 left += 1
-        return left, nums
+        return left
         
 nums = [0,1,2,2,3,0,4,2]
 val = 2
